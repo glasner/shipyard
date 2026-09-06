@@ -1,8 +1,9 @@
 {
   "name": "shipyard-skeleton",
-  "version": "0.0.0",
-  "description": "Living skeleton composing Shipyard plugins 1–5.",
+  "version": "0.1.0",
+  "description": "Living Shipyard skeleton: foundational factory contract skill plus compose stubs for plugins 1–5.",
   "author": {
     "name": "glasner"
-  }
+  },
+  "skills": "./skills/"
 }

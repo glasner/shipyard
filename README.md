@@ -15,6 +15,15 @@ Public Grok Bot / Cursor **plugin monorepo**: skills that let domain Linear agen
 | `linear-agent` | 4 | Linear Agent surface |
 | `shipyard` | 5 | Composed triage → optional Herdr → status |
 
+## Build order (locked)
+
+1. Scaffold + **foundational skill** (`shipyard-skeleton` / `shipyard-foundation`) — done for v0 contract
+2. **`herdr-coding` NEXT** — so domain agents can use Herdr to implement everything else
+3. `tailscale-onboarding` → `tailscale-webhooks` → `linear-agent` → composed `shipyard`
+4. Skeleton stays living: wire each landed plugin in
+
+## Packaging
+
 Distribute as **separate marketplace plugins by id** from this monorepo (`.cursor-plugin/marketplace.json`). Dogfood as local skills until published.
 
 ## Non-goals

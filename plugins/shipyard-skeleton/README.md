@@ -1,7 +1,15 @@
 # shipyard-skeleton
 
-Living skeleton composing Shipyard plugins 1–5.
+Living skeleton for Shipyard. Domain Linear agents load this first.
 
-**Status:** stub for milestone scaffolding. No production behavior yet.
+## Foundational skill
 
-Secrets stay in env/files / plugin variables — never in plugin bodies.
+See [`skills/shipyard-foundation/SKILL.md`](./skills/shipyard-foundation/SKILL.md) — factory contract (lanes, triage hooks, layer map, handoff shapes, secrets names, failure modes, dry-run).
+
+## Next
+
+Implement **`herdr-coding`** next so agents can use Herdr to build the rest of Shipyard. Then Tailscale onboarding → webhooks → Linear Agent → composed `shipyard`.
+
+## Status
+
+Foundation skill landed. Compose wiring and dual-lane dry-run automation still grow as milestones land. No production Tailscale/Herdr/Linear bodies here.
