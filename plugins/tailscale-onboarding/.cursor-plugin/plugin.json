@@ -1,0 +1,8 @@
+{
+  "name": "tailscale-onboarding",
+  "version": "0.0.0",
+  "description": "Tailscale join + MagicDNS + sanity ping.",
+  "author": {
+    "name": "glasner"
+  }
+}

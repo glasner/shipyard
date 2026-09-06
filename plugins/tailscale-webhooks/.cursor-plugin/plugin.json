@@ -1,0 +1,8 @@
+{
+  "name": "tailscale-webhooks",
+  "version": "0.0.0",
+  "description": "Signed Tailscale Funnel webhook pipe.",
+  "author": {
+    "name": "glasner"
+  }
+}

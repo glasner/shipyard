@@ -1,0 +1,8 @@
+{
+  "name": "shipyard",
+  "version": "0.0.0",
+  "description": "Composed factory skill for domain Linear agents.",
+  "author": {
+    "name": "glasner"
+  }
+}

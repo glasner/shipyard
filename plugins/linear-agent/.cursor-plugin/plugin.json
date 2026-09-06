@@ -1,0 +1,8 @@
+{
+  "name": "linear-agent",
+  "version": "0.0.0",
+  "description": "Linear Agent sessions + HMAC delivery.",
+  "author": {
+    "name": "glasner"
+  }
+}

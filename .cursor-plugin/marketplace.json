@@ -1,0 +1,39 @@
+{
+  "name": "shipyard",
+  "owner": {
+    "name": "glasner",
+    "email": "jordan@glasner.com"
+  },
+  "plugins": [
+    {
+      "name": "shipyard-skeleton",
+      "source": "./plugins/shipyard-skeleton",
+      "description": "Living skeleton that composes Shipyard plugins 1–5 (stubs OK)."
+    },
+    {
+      "name": "tailscale-onboarding",
+      "source": "./plugins/tailscale-onboarding",
+      "description": "Join a host to a Tailscale tailnet with MagicDNS + sanity ping."
+    },
+    {
+      "name": "tailscale-webhooks",
+      "source": "./plugins/tailscale-webhooks",
+      "description": "Funnel as signed-webhook pipe: verifier-first, HMAC + timestamp + dedupe, fast 200."
+    },
+    {
+      "name": "herdr-coding",
+      "source": "./plugins/herdr-coding",
+      "description": "Transport-agnostic Herdr orchestration: named sessions/agents, parallel enqueue."
+    },
+    {
+      "name": "linear-agent",
+      "source": "./plugins/linear-agent",
+      "description": "Linear Agent surface: OAuth app user, sessions, thought ACK, HMAC via Tailscale webhooks."
+    },
+    {
+      "name": "shipyard",
+      "source": "./plugins/shipyard",
+      "description": "Composed Shipyard skill: triage → optional Herdr → Linear status. Used by domain agents."
+    }
+  ]
+}
